@@ -28,6 +28,7 @@ li a {
     text-decoration: none;
 }
 
+/* Test a li 
 a {
     color: rgb(106, 75, 241);
     background-color: rgb(78, 53, 223);
@@ -37,6 +38,7 @@ a {
     border-radius: 15px;
     
 }
+*/
 
 a:visited {
     color: rgb(201, 180, 180);
