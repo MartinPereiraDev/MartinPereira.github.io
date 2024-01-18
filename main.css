@@ -53,7 +53,7 @@ li a {
 }
 
 a:visited {
-    color: rgb(201, 180, 180);
+    color: rgb(145, 153, 230);
 }
 
 /*Mouse hover */
@@ -63,11 +63,31 @@ a:hover {
 }
 
 .SP {
-    width: 1366px;
-    height: 768px;
-  
+    width: 700px;
+    height: 300px;
+    place-items: center ;
+    position: relative;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
+    gap: 10px;
+}
+
+.SP img {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: cover; /* Adjust the object-fit property as needed */
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-style: ridge;
+    border-width:   8px;
+    border-color:   rgb(169, 137, 245);
+    border-left:    8px solid #afa;
+    border-right:   8px solid #afa;
+    background-color: rgb(127, 247, 247);
+    color: rgb(14, 13, 13);
+}
