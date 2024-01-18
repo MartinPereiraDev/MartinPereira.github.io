@@ -72,3 +72,13 @@ a:hover {
     color: rgb(116, 151, 70);
     text-decoration: underline;
 }
+
+.layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
