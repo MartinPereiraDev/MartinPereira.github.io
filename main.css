@@ -34,17 +34,6 @@ li a {
     text-decoration: lavender ;
 }
 
-/* Test a li 
-a {
-    color: rgb(106, 75, 241);
-    background-color: rgb(78, 53, 223);
-    border: solid 1px rgb(93, 97, 92);
-    padding: 20px;
-    margin: 15px;
-    border-radius: 15px;
-    
-}
-*/
 
 /* Box in skill*/
 .skill {
@@ -73,7 +62,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.layout {
+.SP {
     width: 1366px;
     height: 768px;
   
