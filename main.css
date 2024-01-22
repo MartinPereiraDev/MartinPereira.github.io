@@ -37,6 +37,7 @@ li a {
 
 /* Box in skill*/
 .skill {
+    text-align: center;
     position: center;
     margin: 8px;
     padding: 20px;
@@ -45,24 +46,30 @@ li a {
     border-color:   rgb(229, 150, 150);
     border-left:    8px solid #afa;
     border-right:   8px solid #afa;
-    background-color: rgb(80, 62, 241);
+    background-color: rgb(107, 92, 240);
     border-radius: 8px;
-    height: 300px;
-    width: 300px;
     color: rgb(230, 250, 234);
 }
 
+/*skill li  */
+.skill li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 25px;
+    text-align: center;
+}
+
+/* link visited */
 a:visited {
     color: rgb(145, 153, 230);
 }
 
-/*Mouse hover */
+/*Mouse hover around link*/
 a:hover {
     color: rgb(116, 151, 70);
     text-decoration: underline;
 }
 
-.SP {
+.grid_sp {
     width: 700px;
     height: 300px;
     display: grid;
@@ -72,10 +79,26 @@ a:hover {
     gap: 10px;
 }
 
-.SP img {
+
+.grid_sp img {
     max-width: 80%;
     max-height: 80%;
     object-fit:cover; 
+}
+.grid_cli {
+    width: 700px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 250px;
+    gap: 10px;
+}
+
+.grid_cli img {
+    max-width: 100%;
+    max-height: 100%;
+     
 }
 
 .description {
