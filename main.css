@@ -1,5 +1,5 @@
 body {
-    background-color: #dbdbb1;
+    background-color: #fffffa;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -44,14 +44,14 @@ body {
     border-color:   rgb(229, 150, 150);
     border-left:    8px solid #afa;
     border-right:   8px solid #afa;
-    background-color: rgb(88, 124, 224);
-    border-radius: 8px;
-    color: rgb(230, 250, 234);
+    background-color: rgb(209, 219, 247);
+    border-radius: 4px;
+    color: rgb(5, 7, 5);
 }
 
 .about p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    size: 45px;
+    size: 25px;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ a:hover {
 .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     border-style: ridge;
     border-width:   8px;
     border-color:   rgb(169, 137, 245);
